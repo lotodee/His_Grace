@@ -1,0 +1,42 @@
+.calenderContainer {
+  width: 1500px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: -50px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(80, 6, 17);
+}
+
+.calender {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, opacity 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: red;
+    opacity: 0.9;
+    color: black;
+  }
+
+  .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; /* Adjusted font size for better readability */
+    color: white;
+  }
+
+  .icon {
+    width: 30px; /* Adjusted icon size */
+    font-size: 30px; 
+    color:white;/* Adjusted icon size for MUI icons */
+  }
+}
+.calender.highlighted {
+  background-color: red;
+  opacity: 0.9;
+  color: black;
+}
+

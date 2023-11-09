@@ -1,0 +1,58 @@
+.slide{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+     box-shadow: 9px 10px 250px -5px rgba(80,6,17,0.31);
+        -webkit-box-shadow: 9px 10px 250px -5px rgba(80,6,17,0.31);
+        -moz-box-shadow: 9px 10px 250px -5px rgba(80,6,17,0.31);
+    .container{
+   
+        width: 1400px;
+        height: 700px;
+        position: relative;
+       
+
+        .carousel-prev{
+            width: 50px;
+   height: 50px;
+            background-color:rgb(64, 52, 52);
+            opacity: 0.5;
+            border-radius: 0;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+           border-top-right-radius: 50%;
+           border-bottom-right-radius: 50%;
+transition: .5s all ease;
+       
+      
+        }
+        .carousel-prev:hover, .carousel-next:hover {
+            background-color: white;
+            border-right: 2px solid grey;
+            opacity: 1;
+            color: #fff;
+            height: 150px;
+            cursor: pointer;
+            /* Add any other hover styles here */
+          }
+          .carousel-next{
+            border-top-left-radius: 50% !important;
+            border-bottom-left-radius: 50% !important;
+            width: 50px;
+            height: 50px;
+            background-color:rgb(64, 52, 52);
+            opacity: 0.5;
+                     border-radius: 0;
+                     position: absolute;
+                     top: 0;
+                     bottom: 0;
+                     margin: auto;
+                   
+         transition: .5s all ease;
+          }
+       
+    }
+}
+

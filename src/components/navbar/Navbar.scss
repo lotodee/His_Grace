@@ -1,0 +1,177 @@
+.navbar {
+  display: flex;
+
+align-items: center;
+  background-color: #ffffff;
+  
+
+position: sticky;
+top: 0;
+z-index: 999;
+
+margin-bottom: 20px;
+
+
+  .container {
+    width: 500px;
+    margin-left: 100px;
+    align-items: center;
+    height: 70px;
+    display: flex;
+    align-self: flex-start;
+    padding: 20px 0px;
+
+
+
+    .logo {
+
+      display: flex;
+      align-items: center;
+
+     img{
+      height: 100px;
+      width: 100px;
+      display: flex;
+      align-items: center;
+     }
+     .texts{
+     
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      font-style: italic;
+      margin-bottom:-2px;
+      hr{
+        width: 300px;
+        background-color: rgb(80, 6, 17);
+        height: 1px;
+      }
+     }
+     
+    }
+  
+    
+
+
+    }
+     
+    
+  }
+
+
+  .menu {
+    width: 1200px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(80, 6, 17);
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+
+    .admissionOptions {
+      width: max-content;
+      height: max-content;
+      padding: 5px;
+      border: 1px solid rgb(80, 6, 17);
+      position: absolute;
+      left: 350px;
+      top: 50px;
+      display: flex;
+      align-content: center;
+      justify-items: center;
+      cursor: pointer;
+      color: black;
+ 
+      background-color: rgb(255, 255, 255);
+      hr {
+        width: inherit;
+        height: .2px;
+        background-color: rgb(0, 0, 0);
+      }
+      .linked {
+        text-decoration: none;
+        color: inherit;
+      }
+  
+      .texts {
+        text-align: center;
+ 
+        padding: 1px;
+  
+        p {
+          /* Styles for individual admission options */
+          margin: 10px 0;
+          font-size: 16px;
+        }
+  
+       
+  
+        &:hover {
+          background-color: rgb(226, 215, 215);
+        }
+      }
+    }
+  
+    .link {
+      font-size: 17px;
+      font-weight: 300;
+      text-decoration: none;
+  
+      &:hover {
+        border-bottom: 4px solid #ffffffca;
+        transform: scaleX(0, 1);
+      }
+    }
+  
+    &.clicked {
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+  }
+
+
+
+    .aboutOptions {
+      width: max-content;
+      height: max-content;
+      padding: 5px;
+      border: 1px solid rgb(80, 6, 17);
+      position: absolute;
+      left: 200px;
+      top: 50px;
+      display: flex;
+      align-content: center;
+      justify-items: center;
+      cursor: pointer;
+      color: black;
+ 
+      background-color: rgb(255, 255, 255);
+      hr {
+        width: inherit;
+        height: .2px;
+        background-color: rgb(0, 0, 0);
+      }
+      .linked {
+        text-decoration: none;
+        color: inherit;
+      }
+  
+      .texts {
+        text-align: center;
+ 
+        padding: 1px;
+  
+        p {
+          /* Styles for individual admission options */
+          margin: 10px 0;
+          font-size: 16px;
+        }
+  
+       
+  
+        &:hover {
+          background-color: rgb(226, 215, 215);
+        }
+      }
+    }

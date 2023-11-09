@@ -1,0 +1,45 @@
+.maincontainer{
+    .topp {
+    
+    
+        background-color: rgb(252, 248, 248);
+      width: 100%;
+        flex:2;
+       
+      .imagee {
+
+        width: 1500px;
+        margin: 0 auto;
+        height: 455px;
+        position: relative;
+        img{
+          width: 100%;
+          height: 100%;
+object-fit: cover;
+        }
+        
+        .titlecontainerr {
+            border: 2px solid rgb(132, 85, 4);
+                width: 700px;
+                height: 100px;
+                position: absolute;
+                top: 50%;
+                left: 70%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                padding: 10px;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+          .textt {
+            
+            font-size: 55px;
+            font-weight: 100;
+            
+          }
+        }
+      }
+    }
+}

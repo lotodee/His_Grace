@@ -1,0 +1,139 @@
+.howContainer {
+
+
+width: 1500px;
+margin: 50px  auto;
+padding: 20px;
+font-size: 20px;
+box-shadow: 10px 10px 118px -14px rgba(168,150,150,0.75);
+-webkit-box-shadow: 10px 10px 118px -14px rgba(168,150,150,0.75);
+-moz-box-shadow: 10px 10px 118px -14px rgba(168,150,150,0.75);
+.howtoText {
+    margin: 0 auto;
+
+   background-color: rgb(80, 6, 17);
+   color: white;
+   
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+.ways {
+
+    margin-top: 30px;
+
+  .info {
+
+    p {
+    }
+  }
+
+  .hardcopy {
+  
+    
+    .hardtext {
+        border: 7px solid rgb(80,6,17);
+        border-radius: 20px;
+            padding: 10px;
+            width: max-content;
+            border-bottom: none;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .hardlist {
+      p {
+      }
+
+      ul {
+        li {
+          span {
+            font-size: 20px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
+  .softcopy {
+    
+    .softtext {
+        border-radius: 20px;
+        border: 7px solid rgb(80,6,17);
+        padding: 10px;
+        width: max-content;
+        border-bottom: none;
+        font-size: 25px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .softlist {
+      p {
+      }
+
+      ul {
+        li {
+          span {
+            font-size: 20px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+
+    width: 500px;
+    justify-content: space-between;
+    .btnfill {
+        padding: 10px;
+        background-color: rgb(80, 6, 17);
+        color: white;
+        border: none;
+        height: 60px;
+        width: 150px;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 10px 10px 118px 20px rgba(168,150,150,0.75);
+-webkit-box-shadow: 10px 10px 118px 20px rgba(168,150,150,0.75);
+-moz-box-shadow: 10px 10px 118px 20px rgba(168,150,150,0.75);
+        }
+    }
+
+    .btndownload {
+        padding: 10px;
+        background-color: rgb(80, 6, 17);
+        color: white;
+        border: none;
+        height: 60px;
+        width: 170px;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 10px 10px 118px 20px rgba(168,150,150,0.75);
+-webkit-box-shadow: 10px 10px 118px 20px rgba(168,150,150,0.75);
+-moz-box-shadow: 10px 10px 118px 20px rgba(168,150,150,0.75);
+        }
+      a {
+      }
+    }
+  }
+}
+}

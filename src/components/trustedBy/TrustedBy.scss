@@ -1,0 +1,70 @@
+.trustedBy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #fafafa;
+  margin-bottom: 200px;
+}
+
+.containerr {
+  display: flex;
+  width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: lightgray;
+  font-weight: 300;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: rgb(214, 208, 209);
+  opacity: 0.6;
+  height: 290px;
+
+  &:hover{
+    opacity: 0.9;
+  }
+}
+
+.missiontext,
+.visiontext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Updated this to center text vertically */
+  gap: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+.mission,
+.vision {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.missionContent,
+.visionContent {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  &.marv{
+    margin-top: 40px;
+  }
+}
+
+hr {
+  height: 300px;
+  border: 0.5px solid black;
+}
