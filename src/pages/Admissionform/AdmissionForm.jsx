@@ -1,8 +1,33 @@
 import React, { useState } from 'react'
 import "./AdmissionForm.scss"
 import  axios from "axios"
-const AdmissionForm = () => {
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+import ModalComponent from '../../components/modal-component/ModalComponent';
 
+
+const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'white',
+    border: '',
+    boxShadow: 24,
+    p: 4,
+    transition:'1s all ease'
+  };
+  
+
+
+const AdmissionForm = () => {
+    const [opened, setOpen] = React.useState(true);
+
+    const handleClose = () => setOpen(false);
+  
  const[name,setName] = useState("");
  const[age,setAge] = useState("");
  const[designation,setDesignation] = useState("");
@@ -26,11 +51,13 @@ axios.post('https://sheet.best/api/sheets/77bd6c05-0c48-4680-a682-8a5bbcbfe3a5',
     setDesignation('');
     setSalary('');
 })
+setOpen(true);
 }
   return (
-    <div className="formContainer">
+            <div className="mainFormContainer">
+                    <div className="formContainer">
         <br />
-        <h1>Save Form Data in Google sheets using React</h1>
+        <h1>Admissions Form</h1>
         <br />
         <form autoComplete='off' className='form-group' onSubmit={handleSubmit}>
             <label htmlFor="">Name</label>
@@ -62,6 +89,23 @@ axios.post('https://sheet.best/api/sheets/77bd6c05-0c48-4680-a682-8a5bbcbfe3a5',
 
         </form>
     </div>
+  {opened && (
+     <Modal
+     open={open}
+     onClose={handleClose}
+     aria-labelledby="modal-modal-title"
+     aria-describedby="modal-modal-description"
+   >
+
+      
+       <ModalComponent handleClose={handleClose}/>
+
+   </Modal>
+  )}
+    
+     
+    
+            </div>
   )
 }
 

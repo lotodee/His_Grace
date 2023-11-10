@@ -75,14 +75,17 @@ margin-bottom: 20px;
       padding: 5px;
       border: 1px solid rgb(80, 6, 17);
       position: absolute;
-      left: 350px;
-      top: 50px;
+      left: 430px;
+      top: 20px;
       display: flex;
       align-content: center;
       justify-items: center;
       cursor: pointer;
       color: black;
- 
+ opacity: 0;
+ &:hover{
+  opacity: 1;
+ }
       background-color: rgb(255, 255, 255);
       hr {
         width: inherit;
@@ -138,15 +141,20 @@ margin-bottom: 20px;
       padding: 5px;
       border: 1px solid rgb(80, 6, 17);
       position: absolute;
-      left: 200px;
-      top: 50px;
+      left: 250px;
+      top: 20px;
       display: flex;
       align-content: center;
       justify-items: center;
       cursor: pointer;
       color: black;
- 
+       
       background-color: rgb(255, 255, 255);
+
+      opacity: 0;
+      &:hover{
+        opacity: 1;
+      }
       hr {
         width: inherit;
         height: .2px;

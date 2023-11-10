@@ -73,7 +73,7 @@ const Navbar = () => {
               About Us
               </div>
              
-             {aclicked &&(
+             {/* {aclicked &&( */}
                 <div className="aboutOptions ">
                 <Link className="linked" to="/aboutwhy">
                  <div className="texts">
@@ -98,14 +98,14 @@ const Navbar = () => {
             
                 </div>
 
-             )}
+            
               
      
            <div className="link" style={{cursor:`pointer`}} onClick={()=>{setClicked(!clicked)}}>
            Admissions
            </div>
              
-              {clicked && ( 
+             
             <div className="admissionOptions">
             <Link className="linked" to="/admissionjunior">
              <div className="texts">
@@ -127,7 +127,7 @@ const Navbar = () => {
               </Link>
         
             </div>
-               ) }
+       
             <Link className="link" to="/">
               Academics
             </Link>

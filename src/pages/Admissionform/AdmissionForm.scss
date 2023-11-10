@@ -1,34 +1,45 @@
-.formContainer{
- 
-    width: 1400px;
-    margin: 0 auto;
-    height: 700px;
- 
-h1{}
-.form-group{
+.mainFormContainer{
+
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    label{
-        font-size: 20px;
-        font-weight: normal;
-    }
-    .form-control{
-    height: 40px;
-    border: 1px solid grey;
-    border-radius: 2px;
-    }
-    .btn ,.btn-ptimary{
-color: white;
-font-size: 24px;
-border: none;
-border-radius: 5px;
-height:50px;
+    justify-content: center;
+    align-items: center;
 
-width: 100px;
 
-padding: 10px;
-background-color: rgb(65, 65, 229);
+    height: 100vh;
+    overflow: hidden;
+    .formContainer{
+ 
+        width: 1400px;
+        margin: 0 auto;
+        height: 700px;
+ 
+     
+    h1{}
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        label{
+            font-size: 20px;
+            font-weight: normal;
+        }
+        .form-control{
+        height: 40px;
+        border: 1px solid grey;
+        border-radius: 2px;
+        }
+        .btn ,.btn-ptimary{
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    height:50px;
+    
+    width: 100px;
+    
+    padding: 10px;
+    background-color: rgb(65, 65, 229);
+        }
     }
-}
+    }
 }
