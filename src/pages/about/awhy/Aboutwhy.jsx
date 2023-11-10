@@ -1,9 +1,9 @@
 import React from "react";
-import Featured from "../../components/featured/Featured";
+import Featured from "../../../components/featured/Featured";
 import "./About.scss";
 import Divider from '@mui/material/Divider';
-import FourPillars from "../../components/fourpillars/FourPillars";
-import { useMediaQuery } from "../../useMediaQuery";
+import FourPillars from "../../../components/fourpillars/FourPillars";
+import { useMediaQuery } from "../../../useMediaQuery";
 const AboutWhy = () => {
 
   const isSmallScreen = useMediaQuery('(max-width:1000px)')

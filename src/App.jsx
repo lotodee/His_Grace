@@ -8,9 +8,9 @@ import Home from "./pages/home/Home";
 
 
 
-import AboutWhy from "./pages/about/AboutWhy";
-import AboutCode from "./pages/about/AboutCode";
-import AboutHis from "./pages/about/AboutHis";
+import AboutWhy from "./pages/about/awhy/Aboutwhy";
+import AboutCode from "./pages/about/acode/AboutCode";
+import AboutHis from "./pages/about/ahis/AboutHis";
 import AdmissionJuniorPage from "./pages/admissions/AdmissionJuniorPage/AdmissionJuniorPage";
 import AdmissionSeniorPage from "./pages/admissions/AdmissionSeniorPage/AdmissionSeniorPage";
 import AdmissionForm from "./pages/Admissionform/AdmissionForm";
