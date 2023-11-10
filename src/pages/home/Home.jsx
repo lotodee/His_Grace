@@ -5,7 +5,7 @@ import Slide from '../../components/slide/Slide';
 import {calender,news,events, projects, gigs } from '../../data';
 import CatCard from '../../components/catCard/CatCard';
 
-import ProjectCard from '../../components/ProjectCard/projectCard';
+import ProjectCard from '../../components/CardProjects/projectCard';
 import Calender from '../../components/calender/Calender';
 
 import "./Home.scss"
