@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ProjectCard.scss"
 import {Link} from "react-router-dom"
-const ProjectCard = ({item}) => {
+const Project = ({item}) => {
     console.log(item)
     return (
  <Link to="/" className='link'>
@@ -24,4 +24,4 @@ const ProjectCard = ({item}) => {
       )
 }
 
-export default ProjectCard
+export default Project

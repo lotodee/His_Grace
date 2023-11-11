@@ -3,17 +3,17 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import Home from "./pages/home/Home";
+import Home from "./mainpages/home/Home";
 
 
 
 
-import AboutWhy from "./pages/about/awhy/Aboutwhy";
-import AboutCode from "./pages/about/acode/AboutCode";
-import AboutHis from "./pages/about/ahis/AboutHis";
-import AdmissionJuniorPage from "./pages/admissions/AdmissionJuniorPage/AdmissionJuniorPage";
-import AdmissionSeniorPage from "./pages/admissions/AdmissionSeniorPage/AdmissionSeniorPage";
-import AdmissionForm from "./pages/Admissionform/AdmissionForm";
+import AboutWhy from "./mainpages/about/awhy/Aboutwhy";
+import AboutCode from "./mainpages/about/acode/AboutCode";
+import AboutHis from "./mainpages/about/ahis/AboutHis";
+import AdmissionJuniorPage from "./mainpages/admissions/AdmissionJuniorPage/AdmissionJuniorPage";
+import AdmissionSeniorPage from "./mainpages/admissions/AdmissionSeniorPage/AdmissionSeniorPage";
+import AdmissionForm from "./mainpages/Admissionform/AdmissionForm";
 
 
 function App() {

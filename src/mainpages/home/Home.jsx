@@ -5,11 +5,12 @@ import Slide from '../../components/slide/Slide';
 import {calender,news,events, projects, gigs } from '../../data';
 import CatCard from '../../components/catCard/CatCard';
 
-import ProjectCard from '../../components/CardProjects/projectCard';
+
 import Calender from '../../components/calender/Calender';
 
 import "./Home.scss"
 import Classes from '../../components/classes/Classes';
+import Project from '../../components/CardProjects/projectCard';
 const Home = () => {
   const [selectedOption, setSelectedOption] = useState('Calendar'); // Default option is 'Calendar'
 
@@ -38,7 +39,7 @@ const Home = () => {
     </div>
     <Slide slidesToShow={3} arrowsScroll={4}>
         {projects.map((project) => {
-          return <ProjectCard key={project.id} item={project} />;
+          return <Project key={project.id} item={project} />;
         })}
       </Slide>
  

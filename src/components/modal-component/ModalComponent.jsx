@@ -18,7 +18,7 @@ const ModalComponent = ({handleClose}) => {
         </div>
         <div className="modalFooter">
           <Link to="/">
-          <button className="closeButton" onClick={handleClose}>Go back to homepage</button>
+          <button className="closeButton" onClick={handleClose}>Returning to homepage....</button>
           </Link>
         </div>
       </div>

@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import ModalComponent from '../../components/modal-component/ModalComponent';
-
+import {useNavigate} from "react-router-dom"
 
 const style = {
     position: 'absolute',
@@ -24,8 +24,8 @@ const style = {
 
 
 const AdmissionForm = () => {
-    const [opened, setOpen] = React.useState(true);
-
+    const [opened, setOpen] = React.useState(false);
+const navigate = useNavigate();
     const handleClose = () => setOpen(false);
   
  const[name,setName] = useState("");
@@ -51,7 +51,13 @@ axios.post('https://sheet.best/api/sheets/77bd6c05-0c48-4680-a682-8a5bbcbfe3a5',
     setDesignation('');
     setSalary('');
 })
+
 setOpen(true);
+setTimeout(()=>{
+setOpen(false);
+navigate("/");
+},2000)
+
 }
   return (
             <div className="mainFormContainer">
