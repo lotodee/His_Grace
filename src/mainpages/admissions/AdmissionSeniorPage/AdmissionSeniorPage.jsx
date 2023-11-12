@@ -11,7 +11,7 @@ const AdmissionSeniorPage = () => {
   
     <div className="adminjContainer">
       <div className="top">
-        <img src="img/sssecimg.jpeg" alt="" />
+        <img src="img/newset/2.jpeg" alt="" />
       </div>
       <div className="adminbottom">
         <div className="adminjj">

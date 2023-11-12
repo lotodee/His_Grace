@@ -73,7 +73,7 @@ const Navbar = () => {
               About Us
               </div>
              
-             {/* {aclicked &&( */}
+  {aclicked &&(
                 <div className="aboutOptions ">
                 <Link className="linked" to="/aboutwhy">
                  <div className="texts">
@@ -97,7 +97,7 @@ const Navbar = () => {
                   </Link>
             
                 </div>
-
+)}
             
               
      
@@ -105,29 +105,34 @@ const Navbar = () => {
            Admissions
            </div>
              
-             
+             {clicked && (
             <div className="admissionOptions">
             <Link className="linked" to="/admissionjunior">
-             <div className="texts">
-             <p>Junior class(JSS 1-2)</p>
-            </div>
+
+
+
+
             
-              <hr className="divide"/>
+            
+             
               <div className="texts">
                 <Link className="linked" to="/admissionsenior">
-              <p>Senior class class(SS 1-2)</p>
+              <p>NUSERY</p>
               </Link>
               </div>
               <hr className="divide"/>
               <div className="texts">
-              <p>WASSCE</p>
+              <p>PRIMARY</p>
               </div>
-          
+              <hr className="divide"/>
+              <div className="texts">
+             <p>JUNIOR(JSS 1-2)</p>
+            </div>
              
               </Link>
         
             </div>
-       
+       )}
             <Link className="link" to="/">
               Academics
             </Link>

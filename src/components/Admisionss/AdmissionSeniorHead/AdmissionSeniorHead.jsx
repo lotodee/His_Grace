@@ -5,9 +5,9 @@ const AdmissionSeniorHead = () => {
    <div className="maincontainer">
         <div className="topp">
           <div className="imagee">
-            <img src="/img/ssmainimg.jpeg" alt="" />
+            <img src="/img/newset/3.avif.avif" alt="" />
             <div className="titlecontainerr">
-              <div className="textt">Sss1 & Sss2 ADMISSIONS</div>
+              <div className="textt">Primary Admissions</div>
             </div>
           </div>
         </div>
