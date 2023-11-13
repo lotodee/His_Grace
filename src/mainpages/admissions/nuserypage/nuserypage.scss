@@ -1,0 +1,48 @@
+.adminjuniorcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .adminjContainer{
+
+
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1500px;
+        margin: 0 auto;
+        gap: 20px;
+
+        .top{
+
+            flex: 1;
+            img{
+          height: 400px;
+          width: 600px;
+          object-fit: cover;
+            }
+
+        }
+        .adminbottom{
+            flex: 2;
+          padding: 10px;
+         
+            .adminjj{
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+    
+                h2{
+ text-align: center;
+ font-size: 30px;
+                }
+                p{
+line-height: 30px;
+text-indent: 60px;
+                }
+            }
+        }
+    }
+    }

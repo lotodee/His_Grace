@@ -14,6 +14,7 @@ import AboutHis from "./mainpages/about/ahis/AboutHis";
 import AdmissionJuniorPage from "./mainpages/admissions/AdmissionJuniorPage/AdmissionJuniorPage";
 import AdmissionSeniorPage from "./mainpages/admissions/AdmissionSeniorPage/AdmissionSeniorPage";
 import AdmissionForm from "./mainpages/Admissionform/AdmissionForm";
+import NurseryPage from "./mainpages/admissions/nuserypage/nuserypage";
 
 
 function App() {
@@ -60,8 +61,12 @@ function App() {
           element: <AdmissionJuniorPage />,
         },
         {
-          path: "/admissionsenior",
+          path: "/primary",
           element: <AdmissionSeniorPage/>,
+        },
+        {
+          path: "/nursery",
+          element: <NurseryPage/>,
         },
       
       ],
@@ -71,6 +76,7 @@ function App() {
       path: "/admissionform",
       element: <AdmissionForm/>,
     },
+   
     
   ]);
 

@@ -1,13 +1,13 @@
 import React from 'react'
-import "./AdmissionSeniorHead.scss"
-const AdmissionSeniorHead = () => {
+import "./NurseryHead.scss"
+const NurseryHead = () => {
   return (
    <div className="maincontainer">
         <div className="topp">
           <div className="imagee">
-            <img src="/img/newset/4.jpeg" alt="" />
+            <img src="/img/newset/3.avif.avif" alt="" />
             <div className="titlecontainerr">
-              <div className="textt">Primary Admissions</div>
+              <div className="textt">Nursery Admissions</div>
             </div>
           </div>
         </div>
@@ -16,4 +16,4 @@ const AdmissionSeniorHead = () => {
   )
 }
 
-export default AdmissionSeniorHead
+export default NurseryHead

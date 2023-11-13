@@ -74,29 +74,29 @@ const Navbar = () => {
               </div>
              
   {aclicked &&(
-                <div className="aboutOptions ">
-                <Link className="linked" to="/aboutwhy">
-                 <div className="texts">
-                 <p>Why Choose Us</p>
-                </div>
+                  <div className="aboutOptions ">
+                  <Link className="linked" to="/aboutwhy">
+                   <div className="texts">
+                   <p>Why Choose Us</p>
+                  </div>
+                  
+                    <hr className="divide"/>
+                    <div className="texts">
+                      <Link className="linked" to="/aboutcode">
+                    <p>Code of Conduct</p>
+                    </Link>
+                    </div>
+                    <hr className="divide"/>
+                    <div className="texts">
+                      <Link className="linked" to="/abouthis">
+                    <p>History</p>
+                    </Link>
+                    </div>
                 
-                  <hr className="divide"/>
-                  <div className="texts">
-                    <Link className="linked" to="/aboutcode">
-                  <p>Code of Conduct</p>
-                  </Link>
-                  </div>
-                  <hr className="divide"/>
-                  <div className="texts">
-                    <Link className="linked" to="/abouthis">
-                  <p>History</p>
-                  </Link>
-                  </div>
+                   
+                    </Link>
               
-                 
-                  </Link>
-            
-                </div>
+                  </div>
 )}
             
               
@@ -106,32 +106,31 @@ const Navbar = () => {
            </div>
              
              {clicked && (
-            <div className="admissionOptions">
-            <Link className="linked" to="/admissionjunior">
-
-
-
-
-            
-            
-             
-              <div className="texts">
-                <Link className="linked" to="/admissionsenior">
-              <p>NUSERY</p>
-              </Link>
-              </div>
-              <hr className="divide"/>
-              <div className="texts">
-              <p>PRIMARY</p>
-              </div>
-              <hr className="divide"/>
-              <div className="texts">
-             <p>JUNIOR(JSS 1-2)</p>
+          <div className="admissionOptions">
+       <div>
+           <div className="texts">
+            <Link to="/nursery" className="linked">
+           <p>NUSERY</p>
+           </Link>
+          </div>
+          
+            <hr className="divide"/>
+            <div className="texts">
+              <Link to="/primary" className="linked">
+            <p>PRIMARY</p>
+            </Link>
             </div>
-             
-              </Link>
+            <hr className="divide"/>
+            <div className="texts">
+            <Link to="/admissionjunior" className="linked">
+            <p>JUNIOR (Jss1 - Jss2)</p>
+            </Link>
+            </div>
         
+           
             </div>
+      
+          </div>
        )}
             <Link className="link" to="/">
               Academics
