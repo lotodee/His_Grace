@@ -1,14 +1,30 @@
-* {
-  box-sizing: border-box; // Ensures padding and border are included in the element's total width and height
-}
+*{
+    .link{
+        text-decoration: none;
+        color: inherit;
+    }
+    body{
+        margin: 5px 5px;
 
-body {
-  margin: 10px 0px;
-  font-family: 'Nunito', 'Open Sans', 'Quicksand', sans-serif; // Use multiple font-family declarations
-  overflow-y: scroll;
-
-  .link, .linked {
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 1500px;
+      
+      
+    }
+  .linked {
     text-decoration: none;
     color: inherit;
   }
+    }
+
+  
+@media (max-width:900px){
+  body{
+    max-width: 900px;
+
+
+  }
+  
 }
