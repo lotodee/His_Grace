@@ -175,3 +175,29 @@ margin-top: 190px;
         border-color: rgb(255, 162, 1);
       }
     }
+
+
+
+
+    @media (max-width:900px){
+      .topp{
+      width: 500px;
+          
+      margin-top: 600px;  
+          .imagee{
+            width: 500px;
+      
+            .titlecontainerr{
+              width: 200px;
+             margin-left: -150px;
+              border: 10px solid orange;
+              font-size: 10px;
+              .textt{
+                font-size: 20px;
+              }
+          }
+         
+          }
+          
+        }
+      }

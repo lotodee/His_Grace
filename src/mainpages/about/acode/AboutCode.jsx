@@ -15,7 +15,7 @@ const AboutCode = () => {
       </div>
     </div>
     <div className="aboutCodeContainer">
-      <div className="top">
+      <div className="topp">
         <img src="/img/imgg/newcode.png" alt="" />
       </div>
       <div className="bottomcode">
