@@ -68,7 +68,7 @@ margin-bottom: 20px;
     background-color: rgb(80, 6, 17);
     font-family: "Montserrat", sans-serif;
     position: relative;
-
+   
     .admissionOptions {
       width: max-content;
       height: max-content;
@@ -183,3 +183,26 @@ margin-bottom: 20px;
         }
       }
     }
+
+
+
+    @media (max-width:900px){
+.navbar{
+  flex-direction: column;
+  .container{
+align-self: flex-end;
+  }
+}
+.menu{
+  width: 550px;
+font-size: 5px !important;
+.link{
+  font-size: 10px;
+}  
+}
+ 
+
+  }
+
+
+    

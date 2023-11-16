@@ -14,7 +14,7 @@ const Project = ({item}) => {
             <div className="texts">
                 <h2>{item.cat}</h2>
                 
-
+               <h4>{item.id}</h4>
                 <span>{item.username}</span>
             </div>
             </Link>

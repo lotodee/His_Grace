@@ -64,7 +64,7 @@ export const events = [
   export const projects = [
     {
       id: 1,
-      img: "/img/imgg/1.jpeg",
+      img: "/img/newset/1.jpeg",
       pp: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1600",
       cat: "Web and Mobile Design",
       username: "Anna Bell",
@@ -72,7 +72,7 @@ export const events = [
     },
     {
       id: 2,
-      img: "/img/imgg/2.jpeg",
+      img: "/img/newset/2.jpeg",
       pp: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
       cat: "Logo Design",
       username: "Morton Green",
@@ -80,7 +80,7 @@ export const events = [
     },
     {
       id: 3,
-      img: "/img/imgg/3.jpeg",
+      img: "/img/newset/3.jpeg",
       pp: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1600",
       cat: "Animated GIFs",
       username: "Emmett Potter",
@@ -88,7 +88,7 @@ export const events = [
     },
     {
       id: 4,
-      img: "/img/admisionimg.jpeg",
+      img: "/img/newset/3.avif.avif",
       pp: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1600",
       cat: "Packaging Design",
       username: "Freddie Johnston",
@@ -96,7 +96,7 @@ export const events = [
     },
     {
       id: 5,
-      img: "/img/imgg/6.jpeg",
+      img: "/img/newset/4.jpeg",
       pp: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1600",
       cat: "Social Media Design",
       username: "Audrey Richards",
@@ -104,7 +104,7 @@ export const events = [
     },
     {
       id: 6,
-      img: "/img/imgg/8.jpeg",
+      img: "/img/newset/6.jpeg",
       pp: "https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=1600",
       cat: "Illustration",
       username: "Dalton Hudson",

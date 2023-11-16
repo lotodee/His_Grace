@@ -5,6 +5,8 @@
   height: 100px;
   background-color: #fafafa;
   margin-bottom: 200px;
+
+  
 }
 
 .containerr {
@@ -15,6 +17,7 @@
   gap: 20px;
   color: lightgray;
   font-weight: 300;
+ 
 }
 
 .left,
@@ -67,4 +70,15 @@
 hr {
   height: 300px;
   border: 0.5px solid black;
+}
+
+@media (max-width:900px){
+
+
+  .containerr{
+   flex-direction: column;
+  }
+hr{
+  display: none;
+}
 }
